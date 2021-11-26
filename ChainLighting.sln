@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ChainLighting", "ChainLighting\ChainLighting.shproj", "{D35274BF-E4AE-4936-9334-9AA7AC580F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS2_ChainLighting", "HS2_ChainLighting\HS2_ChainLighting.csproj", "{9CF1A2E0-7794-4539-A857-34A0E2FEDAA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI_ChainLighting", "AI_ChainLighting\AI_ChainLighting.csproj", "{BCBB4F6D-FD54-4AB6-87CB-4B160BD391E3}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ChainLighting\ChainLighting.projitems*{9cf1a2e0-7794-4539-a857-34a0e2fedaa8}*SharedItemsImports = 4
+		ChainLighting\ChainLighting.projitems*{bcbb4f6d-fd54-4ab6-87cb-4b160bd391e3}*SharedItemsImports = 4
+		ChainLighting\ChainLighting.projitems*{d35274bf-e4ae-4936-9334-9aa7ac580f06}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CF1A2E0-7794-4539-A857-34A0E2FEDAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF1A2E0-7794-4539-A857-34A0E2FEDAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF1A2E0-7794-4539-A857-34A0E2FEDAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF1A2E0-7794-4539-A857-34A0E2FEDAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBB4F6D-FD54-4AB6-87CB-4B160BD391E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBB4F6D-FD54-4AB6-87CB-4B160BD391E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBB4F6D-FD54-4AB6-87CB-4B160BD391E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBB4F6D-FD54-4AB6-87CB-4B160BD391E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AD5CF3C-1C35-4BEB-B450-04CA1970C410}
+	EndGlobalSection
+EndGlobal
