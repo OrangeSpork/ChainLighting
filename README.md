@@ -2,7 +2,7 @@
 
 Simple quality of life plugin that links lights being enabled/disabled to the workspace visibility.
 
-Controlled via two toggles in the Scene Effects menu (towards the bottom). Defaults to off to prevent issues with legacy scenes (you can change that in Plugin Settings if you like).
+Controlled via two toggles in the Screen Effect menu (towards the bottom). Defaults to off to prevent issues with legacy scenes (you can change that in Plugin Settings if you like).
 
 If Link Active is enabled, this allows you to turn off sets of lights by parenting them to something, such as a folder, and then turning the folder on and off on the workspace.
 
