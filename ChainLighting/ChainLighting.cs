@@ -20,7 +20,7 @@ namespace ChainLighting
     {
         public const string GUID = "orange.spork.chainlighting";
         public const string PluginName = "ChainLighting";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
 
         public static ChainLighting Instance { get; private set; }
 
@@ -81,7 +81,7 @@ namespace ChainLighting
 
             Instance = this;
 
-            DefaultEnabled = Config.Bind("Options", "Enabled by Default", true);
+            DefaultEnabled = Config.Bind("Options", "Enabled by Default", false);
             DefaultControlEmbeddedLights = Config.Bind("Options", "Control Embedded Lights (Lights part of non-light Studio Items)", false);
 
             var harmony = new Harmony(GUID);
@@ -118,6 +118,8 @@ namespace ChainLighting
 
         public void UpdateAllLightingStates()
         {
+            if (!KKAPI.Studio.StudioAPI.StudioLoaded)
+                return;
             try
             {
                 foreach (ObjectCtrlInfo oci in Studio.Studio.Instance.dicObjectCtrl.Values)
